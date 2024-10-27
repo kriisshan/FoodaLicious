@@ -1,0 +1,178 @@
+:root{
+    --primary:#4fc646;
+    --light:#f58807;
+    --dark: #181D38;
+    --light-prime: #4fc64681;
+    --light-orange: #f58a0798;
+}
+body { background: linear-gradient(rgba(15,23,43,0.9), rgba(15,23,43,0.9)), url(../images/heroImg/5505524.jpg);linear-gradient(rgba(15,23,43,0.9), rgba(15,23,43,0.9));
+;
+}
+
+nav {
+    background: linear-gradient(rgba(15,23,43,0.9), rgba(15,23,43,0.9)), url(../images/heroImg/5505524.jpg);
+}
+.nav-link {
+ color: var(--light);
+ font-size: 20px;
+ margin-left: 15px;
+ font-weight: 500;
+ transition: all .5s linear;
+ padding: 0px;
+}
+.nav-link:hover {
+ color: var(--primary);
+ border-left: 10px inset var(--light);
+
+}
+.hero-f {
+    font-size: 2.52rem;
+}
+
+.hero-header{
+background: linear-gradient(rgba(15,23,43,0.9), rgba(15,23,43,0.9)), url(../images/heroImg/5505524.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.service-item{
+    background-color: var(--light-prime);
+    transition: 0.5s;
+}
+.service-item:hover {
+    margin-top: 8px;
+    background-color: rgb(136, 238, 252);
+    background-color:var(--primary);
+    margin-bottom:-8px
+
+}
+.bi {
+    color: var(--light);
+}
+
+.service-item , .bi:hover {
+    color: var(--dark);
+}
+
+.service-item .p-4 p:hover , .service-item:hover {
+    color: var(--dark);
+}
+
+
+
+h6{
+    color: var(--light-orange);
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+.read-more{
+    text-decoration: none;
+    background-color: var(--primary);
+    color: var(--light);
+    padding: 10px 20px;
+    display: inline-block;
+
+}
+.read-more:hover{
+    background-color: rgb(10, 77, 77);
+    transition: 1s;
+}
+
+p {
+    color: var(--light-orange);
+    font-weight: 400;
+    line-height: 20px;
+}
+
+h6{
+    color: var(--light);
+}
+h5{
+    color: var(--dark);
+    transition: all 0.5s ease;
+
+}
+.card , h5:hover {
+    border-left: 8px solid var(--primary);
+    border-right: 8px solid var(--primary);
+
+}
+
+h2{
+    color: var(--primary);
+    text-shadow: 2px 1px 1px var(--light-orange);
+   
+}
+
+h3{
+    color: var(--light-orange);
+  
+}
+.testimonials p {
+color: var(--dark);
+font-weight: 400;
+}
+.veg {
+    background-color: transparent;
+}
+.bg-transparent:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+ .veg p {
+   color: var(--dark);
+}
+
+
+.btn{
+    background-color: var(--primary);
+    border: none;
+    color: white;
+}
+.btn:hover{
+    background-color: var(--light);
+    border: none;
+    color: white;
+}
+.card-test {
+    transition: all .5s linear ;
+}
+.card-test:hover {
+    margin-top: 30px;
+    margin-bottom: -30px;
+
+   
+}
+
+ /* footer start */
+ .footer{
+        background-color: #181D38;
+
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+ }
+
+ .footer p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.2rem;
+ }
+
+
+ /*                                                                    categories */
+ /*                                                                    categories */
+ /*                                                                    categories */
+ /*                                                                    categories */
+ /*                                                                    categories */
+
+ 
+ .hero-catog .h2 {
+    font-size: 3rem;
+    color: var(--light);
+ }
+
+
